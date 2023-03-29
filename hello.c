@@ -1,6 +1,7 @@
-// gbv 280323
+// gbv 290323
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
@@ -16,7 +17,17 @@ int main(void)
 		printf("\n");
 	}
 	
-	printf("\n");
+	printf("\nPress Enter ...\n");
+	
+	char ch = ' ';
+	
+	while(ch == ' ')
+	{
+		ch = getchar();
+		//printf("%c", ch);
+	}
+	
+	//printf("%c", ch);
 	
 	return 0;
 }
