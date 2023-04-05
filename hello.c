@@ -11,7 +11,7 @@ int main(void)
 	{
 		for(int i=0; i<c; i++)
 		{
-			printf("#");
+			printf("=");
 		}
 		
 		printf("\n");
